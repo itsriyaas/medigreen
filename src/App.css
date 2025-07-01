@@ -78,6 +78,41 @@
   z-index: -1;
 }
 
+/* Gallery */
+.gallery-banner {
+  background-image: url('https://d2908q01vomqb2.cloudfront.net/9e6a55b6b4563e652a23be9d623ca5055c356940/2022/11/09/hospital-readmission-machine-learning-predictions-1200x600-1.jpg'); 
+ background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.gallery-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+/* Contact */
+/* Gallery */
+.contact-banner {
+  background-image: url('https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1298375809/image_1298375809.jpg?io=getty-c-crop-16-9'); 
+ background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
 /* Responsive */
 @media only screen and (max-width: 600px) {
  .headitems span{
@@ -133,4 +168,8 @@
 .contact-section .form-control:focus {
   box-shadow: none;
   border-color: #28a745;
+}
+.contact-info a{
+  text-decoration: none;
+  color: rgb(42, 106, 245);
 }

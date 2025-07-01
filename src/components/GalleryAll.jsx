@@ -23,32 +23,36 @@ const GallerySection = () => {
   const closeImage = () => setSelectedImage(null);
 
   return (
-    <div className="container py-5" id="full-gallery">
-      <div className="text-center mb-5" data-aos="fade-up">
-        <p className="text-success fw-semibold">Gallery</p>
-        <h2 className="fw-bold display-5">Captured Moments</h2>
-      </div>
-
-      <div className="row g-4">
-        {galleryImages.map((src, index) => (
-          <div className="col-6 col-md-4 col-lg-3" key={index} data-aos="zoom-in">
-            <div className="gallery-card shadow-sm rounded-3 overflow-hidden" onClick={() => openImage(src)} style={{ cursor: 'pointer' }}>
-              <img src={src} alt={`Gallery ${index + 1}`} className="img-fluid w-100" style={{ height: '220px', objectFit: 'cover' }} />
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Lightbox Modal */}
-      {selectedImage && (
-        <div className="image-modal" onClick={closeImage}>
-          <div className="image-modal-content">
-            <img src={selectedImage} alt="Preview" />
-            <button className="btn btn-close btn-close-white position-absolute top-0 end-0 m-3" onClick={closeImage}></button>
+     <>
+        {/* Banner */}
+        <div className="gallery-banner text-white d-flex justify-content-center align-items-center">
+          <div className="text-center" data-aos="fade-down">
+            <h1 className="display-5 fw-bold">Gallery</h1>
+            <p className="lead">Captured Moments</p>
           </div>
         </div>
-      )}
-    </div>
+      <div className="container py-5" id="full-gallery">
+        <div className="row g-4">
+          {galleryImages.map((src, index) => (
+            <div className="col-6 col-md-4 col-lg-3" key={index} data-aos="zoom-in">
+              <div className="gallery-card shadow-sm rounded-3 overflow-hidden" onClick={() => openImage(src)} style={{ cursor: 'pointer' }}>
+                <img src={src} alt={`Gallery ${index + 1}`} className="img-fluid w-100" style={{ height: '220px', objectFit: 'cover' }} />
+              </div>
+            </div>
+          ))}
+        </div>
+  
+        {/* Lightbox Modal */}
+        {selectedImage && (
+          <div className="image-modal" onClick={closeImage}>
+            <div className="image-modal-content">
+              <img src={selectedImage} alt="Preview" />
+              <button className="btn btn-close btn-close-white position-absolute top-0 end-0 m-3" onClick={closeImage}></button>
+            </div>
+          </div>
+        )}
+      </div>
+     </>
   );
 };
 
