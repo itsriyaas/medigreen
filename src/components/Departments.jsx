@@ -12,19 +12,19 @@ const departments = [
     title: 'Paediatrics',
     description: 'The Department of Paediatrics provides comprehensive medical care for infants, children, and adolescents. Our team of experienced paediatricians is dedicated to monitoring your child’s growth, development, and overall health',
     image: 'https://www.huggies.ru/-/media/F3465A5F9CA849B6A8C8DF847283FE29.ashx',
-    icon: 'src/assets/icons/icon-pediatric.jpg'
+    icon: 'assets/icons/icon-pediatric.jpg'
   },
   {
     title: 'Physiotherapy',
     description: 'The Physiotherapy Department focuses on restoring, maintaining, and enhancing physical strength, function, and mobility. Our skilled physiotherapists provide personalized care for patients recovering from injuries, surgeries, strokes, or chronic pain conditions.',
     image: 'https://centromedicoabc.com/storage/2022/12/fisioterapeuta.jpg',
-    icon: 'src/assets/icons/physical-therapy.png'
+    icon: 'assets/icons/physical-therapy.png'
   },
   {
     title: 'Cardiology',
     description: 'Our Cardiology Department offers expert care for heart-related conditions through advanced diagnostics and compassionate treatment. We specialize in managing hypertension, heart attacks, arrhythmias, and more ensuring every patient receives timely.',
     image: 'https://stockhead.com.au/wp-content/uploads/2024/04/AVR-profile-1536x868.jpg',
-    icon: 'src/assets/icons/cardiology.png'
+    icon: 'assets/icons/cardiology.png'
   },
   // Add more departments as needed
 ];

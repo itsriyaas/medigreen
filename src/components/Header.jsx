@@ -12,7 +12,7 @@ const TopBar = () => (
     <div className="header-links d-flex gap-3">
       <a href=''><FaFacebookF /></a>
       <a href=''><FaTwitter /></a>
-      <a href='https://g.co/kgs/7R183MB'><FaMapMarkerAlt/></a>
+      <a href='https://maps.app.goo.gl/HBDkaJ25SJ7fWPpR8' target='_blank'><FaMapMarkerAlt/></a>
     </div>
   </div>
 );
@@ -24,7 +24,7 @@ const MainNavbar = () => {
       <Navbar expand="lg" bg="white" variant="light" className="border-bottom">
         <Container>
           <Navbar.Brand href="#">
-            <img src="src/assets/178 x 61.png" alt="Medigreen Hospital" height="70" />
+            <img src="assets/178 x 61.png" alt="Medigreen Hospital" height="70" />
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
