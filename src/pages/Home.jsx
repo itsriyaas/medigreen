@@ -16,10 +16,6 @@ function Home() {
     {/* Out Doctors */}
     <DoctorsSlider/>
     <GallerySlider/>
-  {/* Whatsapp */}
-  <a href="https://api.whatsapp.com/send?phone=911234567890&text=Hello%20Medigreen%20Hospital" className='whatsapp-button' target='_blank'>
-    <img src="assets/icons/whatsapp.png" alt="Whatsapp-icon" />
-  </a>
     </>
   )
 }

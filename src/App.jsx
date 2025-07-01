@@ -13,6 +13,7 @@ import Gallery from "./pages/Gallery";
 import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
+import WhatsAppButton from "./components/WhatsAppButton";
 function App() {
   
 useEffect(() => {
@@ -34,6 +35,7 @@ useEffect(() => {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Error />} />
           </Routes>
+          <WhatsAppButton/>
         </main>
         <Footer />
       </div>

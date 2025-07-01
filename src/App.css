@@ -61,29 +61,6 @@
     padding: 0.75rem 1rem;
   }
 }
-
- /* Whatsapp */
-.whatsapp-button {
-  width: 50px;
-  height: 50px;
-  line-height: 40px;
-  margin-bottom: 10px;
-  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 30px;
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-  z-index: 99;
-  color: var(--white);
-}
 .doctor-banner {
   background-image: url('https://cdn.sanity.io/images/0vv8moc6/medec/abc489e79b49b4243d4cc3e114934197b0db4cf1-1200x738.jpg?fit=crop&amp;auto=format'); /* adjust path */
  background-size: cover;
@@ -106,4 +83,45 @@
  .headitems span{
   font-size: small;
  }
+ body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  padding: 12px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  color: white;
+}
+/* Responsive: make smaller on smaller screens */
+@media (max-width: 768px) {
+  .whatsapp-float {
+    padding: 10px;
+    font-size: 20px;
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsapp-float {
+    padding: 8px;
+    font-size: 18px;
+    bottom: 10px;
+    right: 10px;
+  }
 }

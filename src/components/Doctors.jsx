@@ -56,7 +56,7 @@ const DoctorsSlider = () => {
       >
         {doctors.map((doc, index) => (
           <SwiperSlide key={index}>
-            <div className="card border-0 shadow text-center rounded-4 mb-5 ms-2 me-2" data-aos="fade-up">
+            <div className="card border-0 shadow text-center rounded-4 mb-5" data-aos="fade-up">
               <img
                 src={doc.image}
                 alt={doc.name}
