@@ -22,7 +22,7 @@ const VisionMissionValues = () => {
         </div>
 
         {/* Our Values Section */}
-        <div className="col-lg-6 bg-success text-white p-5 rounded" data-aos="fade-left">
+        <div className="col-lg-6 bg-success text-white p-5 rounded">
           <h2 className="fw-bold text-center mb-4">Our Values</h2>
           <p><strong>Respect:</strong> We treat everyone in our community, including patients, their families and colleagues, with dignity.</p>
           <p><strong>Comprehensive care:</strong> We provide complete care through prevention and management of physical and emotional health concerns.</p>
