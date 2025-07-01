@@ -24,7 +24,7 @@ const MainNavbar = () => {
       <Navbar expand="lg" bg="white" variant="light" className="border-bottom">
         <Container>
           <Navbar.Brand href="#">
-            <img src="assets/178 x 61.png" alt="Medigreen Hospital" height="70" />
+            <img src="assets/medigreen_logo.png" alt="Medigreen Hospital" height="60" />
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
