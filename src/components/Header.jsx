@@ -23,12 +23,12 @@ const MainNavbar = () => {
       <TopBar />
       <Navbar expand="lg" bg="white" variant="light" className="border-bottom">
         <Container>
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="/">
             <img src="assets/medigreen_logo.png" alt="Medigreen Hospital" height="60" />
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
-            <Nav className="ms-auto gap-4">
+            <Nav className="ms-auto gap-md-3">
               <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link text-success ' : 'nav-link'}>Home</NavLink>
 <NavLink to="/about" className={({ isActive }) => isActive ? 'nav-link text-success ' : 'nav-link'}>About Us</NavLink>
 <NavLink to="/facilities" className={({ isActive }) => isActive ? 'nav-link text-success ' : 'nav-link'}>Facilities / Services</NavLink>
