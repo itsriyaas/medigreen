@@ -5,6 +5,7 @@ import DepartmentSlider from '../components/Departments'
 import VisionMissionValues from '../components/VisonMission'
 import DoctorsSlider from '../components/Doctors'
 import GallerySlider from '../components/Gallery'
+import LatestNewsSection from '../components/LatestNews'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
     {/* Out Doctors */}
     <DoctorsSlider/>
     <GallerySlider/>
+    <LatestNewsSection/>
     </>
   )
 }
