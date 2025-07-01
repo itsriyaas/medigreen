@@ -49,11 +49,13 @@ const Footer = () => {
 
           {/* Contact */}
           <Col md={3}>
-            <h5 className="fw-bold">Contact Us</h5>
-            <p><FaMapMarkerAlt className="me-2" /> Medigreen Hospital,<br />Manakkalappadi, Thekkumkara <br />Thrissur, Kerala 680682</p>
-            <p><FaPhoneAlt className="me-2" /> <strong>0480 286 1727</strong></p>
-            <p><FaEnvelope className="me-2" />rrmedigreen@gmail.com</p>
-            <p><FaClock className="me-2" /> Mon - Sun 24 hours</p>
+            <div className='contact-info'>
+              <h5 className="fw-bold">Contact Us</h5>
+              <p><FaMapMarkerAlt className="me-2" /> Medigreen Hospital,<br />Manakkalappadi, Thekkumkara <br />Thrissur, Kerala 680682</p>
+              <a href='tel:04802861727'><FaPhoneAlt className="me-2" /> <strong>0480 286 1727</strong></a><br />
+              <a href='mailto:rrmedigreen@gmail.com'><FaEnvelope className="me-2" />rrmedigreen@gmail.com</a>
+              <p><FaClock className="me-2" /> Mon - Sun 24 hours</p>
+            </div>
           </Col>
         </Row>
 
