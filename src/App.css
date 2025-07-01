@@ -1,0 +1,109 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  font-family: "Mulish", sans-serif;
+}
+#navbar-brand{
+  width: 100px;
+}
+.navbar{
+  background-color: white;
+}
+.header-links a{
+  color: white;
+}
+.header-links a:hover{
+  color: green;
+}
+.bg-success {
+  background-color: #83b24c !important;
+}
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.image-modal-content img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+}
+.footerlinks a{
+  color: white;
+  text-decoration: none;
+}
+.footerlinks a:hover{
+  color: grey;
+  text-decoration: underline;
+}
+/* optional */
+.navbar-toggler {
+  background: none;
+  outline: none;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse .nav-link {
+    padding: 0.75rem 1rem;
+  }
+}
+
+ /* Whatsapp */
+.whatsapp-button {
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 30px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+  color: var(--white);
+}
+.doctor-banner {
+  background-image: url('https://cdn.sanity.io/images/0vv8moc6/medec/abc489e79b49b4243d4cc3e114934197b0db4cf1-1200x738.jpg?fit=crop&amp;auto=format'); /* adjust path */
+ background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.doctor-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+ .headitems span{
+  font-size: small;
+ }
+}
