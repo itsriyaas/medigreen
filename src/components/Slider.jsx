@@ -42,7 +42,7 @@ const Slider = () => {
               src={slide.image}
               alt={slide.caption}
               className="img-fluid"
-              style={{ width: '100%', height: '80vh' }}
+              style={{ width: '100%', height: 'auto' }}
             />
             <div className="text-center mt-2">{slide.caption}</div>
           </SwiperSlide>
