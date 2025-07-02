@@ -38,7 +38,7 @@ const ContactSection = () => {
             </div>
   
             {/* Map Embed */}
-            <div className="col-md-6" data-aos="fade-left">
+            <div className="col-md-6" data-aos="fade-right">
               <div className="h-100 rounded shadow-sm overflow-hidden">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.686675050405!2d76.21512299999999!3d10.2868099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b081daf88f9c981%3A0x6db43670f899d13b!2sMedigreen%20Hospital!5e0!3m2!1sen!2sin!4v1751359387025!5m2!1sen!2sin"
