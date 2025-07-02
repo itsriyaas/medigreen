@@ -4,6 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaRegClock, FaHeart, FaPills, FaUserMd } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { BsWhatsapp } from 'react-icons/bs';
 
 const InfoSection = () => {
   const fadeUp = {
@@ -29,9 +30,9 @@ const InfoSection = () => {
               Welcome to <strong>Medigreen Hospital</strong>
             </h4>
             <p className="text-muted">
-              Medigreen Hospital is a modern, multi-specialty healthcare institution located in Irinjalakuda, Thrissur. Renowned for its commitment to excellence, Medigreen brings together a team of highly skilled medical professionals dedicated to compassionate and quality care. The hospital stands out for its advanced infrastructure, patient-first approach, and unwavering focus on delivering personalized treatment. At Medigreen, every effort is made to ensure the well-being of patients through expertise, empathy, and innovation in healthcare.
+              Medigreen general hospital was commissioned in January 2007 under the visionary leadership of <strong>Mr. Rakesh Manu S.R, Managing Director</strong> and his wife <strong>Dr. Ajirani - MD [Ukraine]</strong> to take care of all medical needs. Medigreen Hospital come up with an expert insight into health services has set highest standards for quality and care to ensure top-notch healthcare experience.
             </p>
-            <Link to={"/about"}><Button variant="info" className="text-white fw-bold px-4 mb-5">continue</Button></Link>
+            <a href='https://api.whatsapp.com/send?phone=911234567890&text=Hello%20Medigreen%20Hospital' target='_blank'><button className='btn btn-success'><BsWhatsapp className='me-3' />BOOK AN APPOINTMENT</button></a>
           </motion.div>
         </Col>
 

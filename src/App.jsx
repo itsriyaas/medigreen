@@ -14,6 +14,7 @@ import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import WhatsAppButton from "./components/WhatsAppButton";
+import News from "./pages/News";
 function App() {
   
 useEffect(() => {
@@ -30,6 +31,7 @@ useEffect(() => {
             <Route path="/about" element={<About />} />
             <Route path="/facilities" element={<Services />} />
             <Route path="/doctors" element={<Doctors />} />
+            <Route path="/news" element={<News />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/career" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />

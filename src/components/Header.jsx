@@ -31,17 +31,11 @@ const MainNavbar = () => {
             <Nav className="ms-auto gap-md-3">
               <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link text-success ' : 'nav-link'}>Home</NavLink>
 <NavLink to="/about" className={({ isActive }) => isActive ? 'nav-link text-success ' : 'nav-link'}>About Us</NavLink>
-<NavLink to="/facilities" className={({ isActive }) => isActive ? 'nav-link text-success ' : 'nav-link'}>Facilities / Services</NavLink>
- <NavDropdown title="Departments" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Paediatrics</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Physiotherapy
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Another</NavDropdown.Item>
-            </NavDropdown>
+<NavLink to="/facilities" className={({ isActive }) => isActive ? 'nav-link text-success ' : 'nav-link'}>Facilities</NavLink>
 <NavLink to="/doctors" className={({ isActive }) => isActive ? 'nav-link text-success' : 'nav-link'}>Doctors</NavLink>
-<NavLink to="/gallery" className={({ isActive }) => isActive ? 'nav-link text-success' : 'nav-link'}>Gallery</NavLink>
+<NavLink to="/news" className={({ isActive }) => isActive ? 'nav-link text-success' : 'nav-link'}>News</NavLink>
 <NavLink to="/career" className={({ isActive }) => isActive ? 'nav-link text-success ' : 'nav-link'}>Career</NavLink>
+<NavLink to="/gallery" className={({ isActive }) => isActive ? 'nav-link text-success' : 'nav-link'}>Gallery</NavLink>
 <NavLink to="/contact" className={({ isActive }) => isActive ? 'nav-link text-success ' : 'nav-link'}>Contact</NavLink>
 
             </Nav>

@@ -12,8 +12,8 @@ function Home() {
     <>
     <Slider/>
     <InfoSection/>
-    <DepartmentSlider/>
     <VisionMissionValues/>
+    <DepartmentSlider/>
     {/* Out Doctors */}
     <DoctorsSlider/>
     <GallerySlider/>

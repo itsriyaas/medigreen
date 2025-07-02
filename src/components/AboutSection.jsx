@@ -18,14 +18,13 @@ const AboutUsSection = () => {
             {/* Left Column - Text */}
             <Col md={6} data-aos="fade-right">
               <h2 className="fw-bold text-success">About Medigreen Hospital</h2>
-              <p className="text-muted mt-3">
-                Medigreen Hospital is a state-of-the-art multi-specialty healthcare institution located in Irinjalakuda, Thrissur.
-                We are committed to delivering exceptional medical care through a team of experienced doctors, modern facilities,
-                and a patient-first approach.
+              <p className="text-justify mt-3">
+                Medigreen general hospital was commissioned in January 2007 under the visionary leadership of <strong>Mr. Rakesh Manu S.R, Managing Director</strong>- and his wife <strong>Dr. Ajirani - MD [Ukraine] </strong>to take care of all medical needs. Medigreen Hospital come up with an expert insight into health services has set highest standards for quality and care to ensure top-notch healthcare experience.</p>
+               <p className="text-justify">
+                 The hospital designed and conceived in a different way sprawls in 50 cents of land adjacent to Thrissur Kodungallur main road. Medigreen Hospital is equipped with an operation theatre, intensive care unit, 24-Hour Accident & Emergency care unit, most modern radiological equipment, 24 Hour Pharmacies and clinical Laboratories,  operation theatre, full fledged medical ICU, ample car parking facilities and more.The hospital has evolved to its present form from his extraordinary vision. A dream cherished by the management; to provide the most advanced healthcare to the society; a complete hospital that has unique facilities, affordable treatment costs at a location very much in the heart of the city.
               </p>
-              <p className="text-muted">
-                With services ranging from general medicine to advanced specialties, Medigreen stands for quality care, compassion,
-                and innovation in healing.
+              <p className="text-justify">
+                 Upholding the motto of quality healthcare, adopting state-of-the-art equipment and bringing together most modern facilities, Medigreen Hospital redefines the healthcare scenario of Kerala. Our vision is to assure comprehensive and affordable healthcare for all. Renowned specialists along with well-trained paramedical staff ensure a top-quality healthcare experience. From diagnosis to analysis, each phase of treatment is bestowed with utmost care and dedication.
               </p>
               <Link to={"/services"}><Button variant="success" className="mt-3">Explore Services</Button></Link>
             </Col>
