@@ -32,7 +32,7 @@ const InfoSection = () => {
             <p className="text-muted">
               Medigreen general hospital was commissioned in January 2007 under the visionary leadership of <strong>Mr. Rakesh Manu S.R, Managing Director</strong> and his wife <strong>Dr. Ajirani - MD [Ukraine]</strong> to take care of all medical needs. Medigreen Hospital come up with an expert insight into health services has set highest standards for quality and care to ensure top-notch healthcare experience.
             </p>
-            <a href='https://api.whatsapp.com/send?phone=911234567890&text=Hello%20Medigreen%20Hospital' target='_blank'><button className='btn btn-success'><BsWhatsapp className='me-3' />BOOK AN APPOINTMENT</button></a>
+            <a href='https://api.whatsapp.com/send?phone=911234567890&text=Hello%20Medigreen%20Hospital' target='_blank'><button className='btn btn-success mb-4'><BsWhatsapp className='me-3' />BOOK AN APPOINTMENT</button></a>
           </motion.div>
         </Col>
 
