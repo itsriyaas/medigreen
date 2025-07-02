@@ -52,11 +52,11 @@ const CareersSection = () => {
         </div>
       </div>
         <Container className="my-5">
-              <div>
+              <div className='container'>
               <h4 className="mb-3 fw-bold">Join Our Team</h4>
-              <p>With our state-of-the-art facilities, we are all set to change the face of healthcare in konathukunnu. Medigreen Hospital offers a high order of integrated quality healthcare with the latest generation diagnostic facilities under one roof. We promise to deliver quality medical service affordable for one and all. If you are confident in your skill set and would like to join a compassionate team of health care experts, please feel free to get in touch with us.</p>
+              <p className='text-muted'>With our state-of-the-art facilities, we are all set to change the face of healthcare in konathukunnu. Medigreen Hospital offers a high order of integrated quality healthcare with the latest generation diagnostic facilities under one roof. We promise to deliver quality medical service affordable for one and all. If you are confident in your skill set and would like to join a compassionate team of health care experts, please feel free to get in touch with us.</p>
             </div>
-          <Row className="g-5">
+          <Row className="g-4">
           
             <Col md={6}>
               <h4 className="mb-3 fw-semibold">Open Vacancies</h4>

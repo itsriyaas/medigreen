@@ -30,7 +30,7 @@ const AboutUsSection = () => {
             </Col>
     
             {/* Right Column - Image */}
-            <Col md={6} data-aos="fade-left" className="text-center mt-4 mt-md-0">
+            <Col md={6} className="text-center mt-4 mt-md-0">
               <img
                 src="assets/medigreen_hospital.webp"
                 alt="Medigreen Hospital"
