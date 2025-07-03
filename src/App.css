@@ -173,3 +173,11 @@
   text-decoration: none;
   color: rgb(13, 185, 228);
 }
+.facility-card-img {
+  transition: transform 0.4s ease;
+  border-radius: 6px;
+}
+
+.facility-card-img:hover {
+  transform: scale(1.05);
+}

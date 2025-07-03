@@ -1,8 +1,11 @@
 import React from 'react'
+import FacilitiesPage from '../components/FacilitiesSection'
 
 function Services() {
   return (
-    <div>Services</div>
+    <>
+    <FacilitiesPage/>
+    </>
   )
 }
 

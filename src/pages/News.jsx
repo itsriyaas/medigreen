@@ -1,8 +1,11 @@
 import React from 'react'
+import NewsSection from '../components/NewsSection'
 
 function News() {
   return (
-    <div>News</div>
+    <>
+    <NewsSection/>
+    </>
   )
 }
 
