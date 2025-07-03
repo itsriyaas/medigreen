@@ -181,3 +181,7 @@
 .facility-card-img:hover {
   transform: scale(1.05);
 }
+.headitems a{
+  color: white;
+  text-decoration: none;
+}

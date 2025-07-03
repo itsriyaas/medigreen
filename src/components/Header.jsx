@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom';
 const TopBar = () => (
   <div className="bg-dark text-white py-2 px-3 d-flex justify-content-between align-items-center flex-wrap">
     <div className="headitems d-flex gap-3 align-items-center">
-      <FaEnvelope /> <span>rrmedigreen@gmail.com</span>
-      <FaPhoneAlt /> <span>0480 286 1727</span>
+      <a href='mailto:rrmedigreen@gmail.com'><FaEnvelope /> <span>rrmedigreen@gmail.com</span></a>
+      <a href='tel:04802861727'><FaPhoneAlt /> <span>0480 286 1727</span></a>
     </div>
     <div className="header-links d-flex gap-3">
       <a href=''><FaFacebookF /></a>

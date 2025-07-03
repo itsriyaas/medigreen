@@ -29,7 +29,7 @@ const NewsSection = () => {
         <div className="gallery-banner text-white d-flex justify-content-center align-items-center">
           <div className="text-center" data-aos="fade-down">
             <h1 className="display-5 fw-bold">Latest News</h1>
-            <p className="lead">Stay updated with our hospital’s events and announcements</p>
+            <p className="lead">Stay updated with our hospital's events and announcements</p>
           </div>
         </div>
         <section className="py-5 bg-light">

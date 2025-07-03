@@ -46,10 +46,10 @@ const InfoSection = () => {
                 animate="visible"
                 custom={1}
               >
-                <FaRegClock size={48} className="text-info me-3" />
+                <FaRegClock size={48} className="text-success me-3" />
                 <div>
                   <h6><strong>24 Hours Services</strong></h6>
-                  <p className="text-muted mb-0">Facilities include Pharmacy, Lab, ECG, Digital X-ray, etc.</p>
+                  <p className="text-muted mb-0">Facilities include Pharmacy, Lab, Digital X-ray, etc.</p>
                 </div>
               </motion.div>
             </Col>
@@ -62,7 +62,7 @@ const InfoSection = () => {
                 animate="visible"
                 custom={2}
               >
-                <FaPills size={48} className="text-info me-3" />
+                <FaPills size={48} className="text-success me-3" />
                 <div>
                   <h6><strong>Medical Consulting</strong></h6>
                   <p className="text-muted mb-0">We ensure ethical, transparent care with a people-centric approach.</p>
@@ -78,7 +78,7 @@ const InfoSection = () => {
                 animate="visible"
                 custom={3}
               >
-                <FaHeart size={48} className="text-info me-3" />
+                <FaHeart size={48} className="text-success me-3" />
                 <div>
                   <h6><strong>Care with Love</strong></h6>
                   <p className="text-muted mb-0">Treatment with love and empathy to aid faster recovery.</p>
@@ -94,7 +94,7 @@ const InfoSection = () => {
                 animate="visible"
                 custom={4}
               >
-                <FaUserMd size={48} className="text-info me-3" />
+                <FaUserMd size={48} className="text-success me-3" />
                 <div>
                   <h6><strong>Humble Staff</strong></h6>
                   <p className="text-muted mb-0">Our professional and kind staff make every visit comfortable.</p>
