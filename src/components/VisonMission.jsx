@@ -9,14 +9,14 @@ const VisionMissionValues = () => {
           <div className="mb-5">
             <h2 className="fw-bold">Vision</h2>
             <p className="text-muted">
-              Provide comprehensive caring and cost effective medical treatment of global standard , through a team of highly qualified and committed medical professionals with state of the art medical equipment
+              To establish a health care complex of global Standards for providing cost effective and comprehensive health care to match global bench mark.
             </p>
             <hr />
           </div>
           <div>
             <h2 className="fw-bold">Mission</h2>
             <p className="text-muted">
-              To establish a health care complex of international Standards for providing cost effective and comprehensive health care to match global bench mark.
+              To deliver the best Clinical Outcomes in the most effective, efficient and integrated medical care in an ethical self-environment to treat patients with Care, Compassion and Commitments.
             </p>
           </div>
         </div>

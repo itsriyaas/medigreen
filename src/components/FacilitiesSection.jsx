@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const facilities = [
     {
-        title: '24/7 Emergency Care',
+        title: '24 hours Causality',
         image: 'assets/facilities/emergency.jpg',
     },
     {
@@ -15,24 +15,32 @@ const facilities = [
         image: 'assets/facilities/pharmacy.avif',
     },
     {
-        title: 'Private Rooms',
-        image: 'assets/facilities/private rooms.jpg',
+        title: 'ICU',
+        image: 'assets/facilities/icu.jpg',
     },
     {
         title: 'Laboratory',
         image: 'assets/facilities/laboratory.jpg',
     },
     {
-        title: '24/7 CCTV Surveillance',
-        image: 'assets/facilities/cctv.jpg',
+        title: '24/7 Ambulance Services',
+        image: 'assets/facilities/ambulance.jpg',
     },
     {
         title: 'Physiotherapy',
         image: 'assets/facilities/physiotherapy.jpg',
     },
     {
-        title: 'Psychology',
-        image: 'assets/facilities/psyhcology.jpg',
+        title: 'Mini OT',
+        image: 'assets/facilities/mini ot.avif',
+    },
+     {
+        title: 'Ultrasound Scanning',
+        image: 'assets/facilities/ultrasound.jpeg',
+    },
+    {
+        title: 'C Arm',
+        image: 'assets/facilities/c-arm.webp',
     },
 ];
 
