@@ -10,7 +10,7 @@ const TopBar = () => (
       <a href='tel:04802861727'><FaPhoneAlt /> <span>0480 286 1727</span></a>
     </div>
     <div className="header-links d-flex gap-3">
-      <a href=''><FaFacebookF /></a>
+      <a href='https://www.facebook.com/medigreen.hospital/' target='_blank'><FaFacebookF /></a>
       <a href=''><FaTwitter /></a>
       <a href='https://maps.app.goo.gl/HBDkaJ25SJ7fWPpR8' target='_blank' rel="noopener noreferrer"><FaMapMarkerAlt/></a>
     </div>
