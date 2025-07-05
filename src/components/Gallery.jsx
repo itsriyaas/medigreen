@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const galleryImages = [
   'assets/gallery/g2.jpg',
@@ -40,12 +41,14 @@ const GallerySlider = () => {
         {galleryImages.map((img, index) => (
           <SwiperSlide key={index}>
             <div className="card border-0 shadow rounded-4 overflow-hidden" data-aos="zoom-in">
-              <img
-                src={img}
-                alt={`Gallery ${index + 1}`}
-                className="img-fluid w-100"
-                style={{ height: '280px', objectFit: 'cover' }}
-              />
+              <Link to={"/gallery"}>
+                <img
+                  src={img}
+                  alt={`Gallery ${index + 1}`}
+                  className="img-fluid w-100"
+                  style={{ height: '280px', objectFit: 'cover' }}
+                />
+              </Link>
             </div>
           </SwiperSlide>
         ))}

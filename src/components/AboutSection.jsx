@@ -28,7 +28,7 @@ const AboutUsSection = () => {
                  The hospital has evolved to its present form from his extraordinary vision. A dream cherished by the management; to provide the most advanced healthcare to the society; a complete hospital that has unique facilities, affordable treatment costs at a location very much in the heart of the city.
               </p>
               <p>Upholding the motto of quality healthcare, adopting state-of-the-art equipment and bringing together most modern facilities, Medigreen Hospital redefines the healthcare scenario of Kerala. Our vision is to assure comprehensive and affordable healthcare for all. Renowned specialists along with well-trained paramedical staff ensure a top-quality healthcare experience. From diagnosis to analysis, each phase of treatment is bestowed with utmost care and dedication.</p>
-              <Link to={"/services"}><Button variant="success" className="mt-3">Explore Services</Button></Link>
+              <Link to={"/facilities"}><Button variant="success" className="mt-3">Explore Services</Button></Link>
             </Col>
     
             {/* Right Column - Image */}
