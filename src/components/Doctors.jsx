@@ -24,7 +24,7 @@ const doctors = [
   },
   {
     name: 'Dr. Nadeera Bhanu',
-    title:'Diabatalory',
+    title:'Diabetology',
     image: 'assets/avatar-famale.jpg',
   },
   {
