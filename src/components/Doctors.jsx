@@ -43,6 +43,26 @@ const doctors = [
     image: 'assets/avatar-male.png',
   },
   {
+    name: 'Dr. Sunitha V. Narayanan. MD',
+    title:'Pulmonologist [CIS]',
+    image: 'assets/avatar-male.png',
+  },
+  {
+    name: 'Dr. Syam Krishna . MD',
+    title:'Psychiatrist',
+    image: 'assets/avatar-male.png',
+  },
+  {
+    name: 'Dr. Simmi Thampiraj Phd [PSY]',
+    title:'Psychologist',
+    image: 'assets/avatar-male.png',
+  },
+  {
+    name: 'Sreeja Ragesh - BPT, CSPRS',
+    title:'Physiotherapist',
+    image: 'assets/avatar-male.png',
+  },
+  {
     name: 'Dr Ragendu - MBBS',
     title:'RMO',
     image: 'assets/avatar-famale.jpg',

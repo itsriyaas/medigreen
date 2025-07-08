@@ -65,6 +65,30 @@ const departments = [
     image: 'https://www.soupstock.in/system/files/images/dd/f5/shutterstock_1131832418.jpg',
     icon: 'assets/icons/surgery.png'
   },
+   {
+    id: 'Pulmonology',
+    title: 'Pulmonology',
+    description: 'The Pulmonology Department specializes in the diagnosis, treatment, and management of conditions related to the respiratory system.',
+    fullDescription:'The Pulmonology Department specializes in the diagnosis, treatment, and management of conditions related to the respiratory system. Our expert pulmonologists provide comprehensive care for a wide range of lung and breathing disorders, including asthma, chronic obstructive pulmonary disease (COPD), pneumonia, tuberculosis, bronchitis, and sleep-related breathing issues.',
+    image: 'https://ijcscardiol.org/wp-content/uploads/2023/08/shutterstock_2203003905.jpg',
+    icon: 'assets/icons/pulmonology.png'
+  },
+  {
+    id: 'Psychiatry',
+    title: 'Psychiatry',
+    description: 'The Psychiatry Department is dedicated to promoting mental and emotional well-being through expert diagnosis, compassionate care, and individualized treatment.',
+    fullDescription:'The Psychiatry Department is dedicated to promoting mental and emotional well-being through expert diagnosis, compassionate care, and individualized treatment. Our team of experienced psychiatrists addresses a wide range of mental health conditions including depression, anxiety, bipolar disorder, schizophrenia, stress-related disorders, and more.',
+    image: 'https://www.chester.ac.uk/media/media/photography/photography/stock/AdobeStock_314466165.jpg',
+    icon: 'assets/icons/psychiatry.png'
+  },
+    {
+    id: 'Psychology',
+    title: 'Psychology',
+    description: 'The Psychology Department is committed to enhancing emotional and psychological well-being through expert care, empathy, and scientifically grounded methods.',
+    fullDescription:'The Psychology Department is committed to enhancing emotional and psychological well-being through expert care, empathy, and scientifically grounded methods. Our trained psychologists provide counseling and therapy for individuals facing stress, anxiety, depression, trauma, behavioral issues, and life transitions.',
+    image: 'https://i.vuzopedia.ru/storage/app/uploads/public/5a9/028/ca7/5a9028ca7fa15970420108.jpg',
+    icon: 'assets/icons/brain.png'
+  },
   // Add more departments as needed
 ];
 
