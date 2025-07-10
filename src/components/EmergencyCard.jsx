@@ -1,28 +1,44 @@
 import React from 'react';
-import { FaPhoneAlt, FaAmbulance, FaClock } from 'react-icons/fa';
+import { FaAmbulance, FaProcedures, FaPhoneAlt } from 'react-icons/fa';
+
+const cardData = [
+  {
+    icon: <FaAmbulance size={40} className="text-danger mb-3" />,
+    title: '24/7 Ambulance',
+    description: 'Rapid emergency transport service anytime you need it.',
+    phone: '+91 8593959881',
+  },
+  {
+    icon: <FaProcedures size={40} className="text-primary mb-3" />,
+    title: 'Casualty',
+    description: 'Immediate medical care for accidents and emergencies.',
+    phone: '+91 8593959881',
+  },
+  {
+    icon: <FaPhoneAlt size={40} className="text-success mb-3" />,
+    title: 'Reception',
+    description: 'For general queries, assistance, and appointments.',
+    phone: '+91 8593959881',
+  },
+];
 
 const EmergencyCardSection = () => {
   return (
-    <section className="emergency-section py-5 text-white text-center">
+    <section className="emergency-section py-5 bg-light">
       <div className="container">
-        <div className="card border-0 shadow-lg rounded-4 p-4 bg-white text-dark">
-          <div className="row align-items-center g-4">
-            <div className="col-md-3 text-center">
-              <FaAmbulance size={60} className="text-danger" />
+        <div className="row g-4">
+          {cardData.map((card, idx) => (
+            <div className="col-12 col-md-4" key={idx}>
+              <div className="card h-100 text-center p-4 shadow-sm border-0 rounded-4">
+                {card.icon}
+                <h5 className="fw-bold">{card.title}</h5>
+                <p className="text-muted small">{card.description}</p>
+                <a href={`tel:${card.phone}`} className="btn btn-danger btn-sm rounded-pill mt-2">
+                  Call Now: {card.phone}
+                </a>
+              </div>
             </div>
-            <div className="col-md-6">
-              <h4 className="fw-bold">24x7 Emergency Casualty</h4>
-              <p className="text-muted mb-0">
-                Our emergency services are available round-the-clock with immediate medical attention.
-              </p>
-            </div>
-            <div className="col-md-3 text-center">
-              <a href="tel:+919012345678" className="btn btn-danger btn-lg px-4 py-2 rounded-pill d-inline-flex align-items-center gap-2">
-                <FaPhoneAlt /> +91 8593959881
-              </a>
-              <p className="small mt-2 text-muted"><FaClock /> Available 24/7</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
