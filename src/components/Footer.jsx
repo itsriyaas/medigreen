@@ -30,7 +30,7 @@ const Footer = () => {
 
           {/* Latest News */}
           <Col md={3}>
-            <h5 className="fw-bold">Latest News</h5>
+            {/* <h5 className="fw-bold">Latest News</h5>
             <div className="d-flex mt-3">
               <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2023-12/17/full/1702832643-9438.jpg?im=FeatureCrop,size=(826,465)" alt="News1" width="100" height="50" className="me-2" />
               <div>
@@ -44,14 +44,14 @@ const Footer = () => {
                 <strong>Getting to know your Thyroid</strong>
                 <p className="mb-0 text-muted" style={{ fontSize: '14px' }}>17 May 2025</p>
               </div>
-            </div>
+            </div> */}
           </Col>
 
           {/* Contact */}
           <Col md={3}>
             <div className='contact-info'>
               <h5 className="fw-bold">Contact Us</h5>
-              <p><FaMapMarkerAlt className="me-2" /> Medigreen Hospital,<br />Manakkalappadi, Thekkumkara <br />Thrissur, Kerala 680682</p>
+              <a href='https://maps.app.goo.gl/MWZ9bvpw8J43AsiR9' target='_blank'><p><FaMapMarkerAlt className="me-2" /> Medigreen Hospital,<br />Manakkalappadi, Thekkumkara <br />Thrissur, Kerala 680682</p></a>
               <a href='tel:04802861727'><FaPhoneAlt className="me-2" /> <strong>0480 286 1727</strong></a><br />
               <a href='mailto:rrmedigreen@gmail.com'><FaEnvelope className="me-2" />rrmedigreen@gmail.com</a>
               <p><FaClock className="me-2" /> Mon - Sun 24 hours</p>

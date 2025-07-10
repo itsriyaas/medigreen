@@ -28,7 +28,7 @@ const LatestNewsSection = () => {
       <p className="text-success fw-semibold text-center">News</p>
         <h2 className="fw-bold display-5 text-center">Latest News</h2>
       <p className="text-center text-muted mb-5">Stay informed with the latest health updates, events, and services at Medigreen Hospital</p>
-      <Row className="g-4">
+      {/* <Row className="g-4">
         {news.map((item, index) => (
           <Col key={index} md={4} data-aos="fade-up">
             <Card className="h-100 shadow border-0">
@@ -41,7 +41,7 @@ const LatestNewsSection = () => {
             </Card>
           </Col>
         ))}
-      </Row>
+      </Row> */}
     </Container>
   );
 };

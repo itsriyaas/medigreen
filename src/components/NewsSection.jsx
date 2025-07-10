@@ -34,7 +34,8 @@ const NewsSection = () => {
         </div>
         <section className="py-5 bg-light">
           <Container>
-            <Row className="g-4">
+            <p className='text-center text-secondary'>Stay informed with the latest health updates, events, and services at Medigreen Hospital</p>
+            {/* <Row className="g-4">
               {newsItems.map((item, index) => (
                 <Col key={index} xs={12} md={4} data-aos="fade-up" data-aos-delay={index * 100}>
                   <Card className="h-100 shadow-sm border-0">
@@ -50,7 +51,7 @@ const NewsSection = () => {
                   </Card>
                 </Col>
               ))}
-            </Row>
+            </Row> */}
           </Container>
         </section>
     </>

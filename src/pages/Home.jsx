@@ -6,11 +6,13 @@ import VisionMissionValues from '../components/VisonMission'
 import DoctorsSlider from '../components/Doctors'
 import GallerySlider from '../components/Gallery'
 import LatestNewsSection from '../components/LatestNews'
+import EmergencyCardSection from '../components/EmergencyCard'
 
 function Home() {
   return (
     <>
     <Slider/>
+    <EmergencyCardSection/>
     <InfoSection/>
     <VisionMissionValues/>
     <DepartmentSlider/>

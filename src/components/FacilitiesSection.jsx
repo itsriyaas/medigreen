@@ -3,11 +3,11 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const facilities = [
     {
-        title: '24 hours Causality',
+        title: '24 hours Causalty',
         image: 'assets/facilities/emergency.jpg',
     },
     {
-        title: 'X-Ray & Imaging',
+        title: 'Computerized X-ray',
         image: 'assets/facilities/xray.jpg',
     },
     {
@@ -32,7 +32,7 @@ const facilities = [
     },
     {
         title: 'Mini OT',
-        image: 'assets/facilities/mini ot.avif',
+        image: 'assets/facilities/miniOT.jpg',
     },
      {
         title: 'Ultrasound Scanning',
@@ -41,6 +41,10 @@ const facilities = [
     {
         title: 'C Arm',
         image: 'assets/facilities/c-arm.webp',
+    },
+     {
+        title: 'Lab Fully Automatic Machine',
+        image: 'assets/facilities/fullyautomated.jpg',
     },
 ];
 

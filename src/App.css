@@ -113,6 +113,14 @@
   background: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
+.image-modal {
+  animation: fadeIn 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 /* Responsive */
 @media only screen and (max-width: 600px) {
  .headitems span{
@@ -171,7 +179,11 @@
 }
 .contact-info a{
   text-decoration: none;
-  color: rgb(13, 185, 228);
+  color: rgb(255, 255, 255);
+}
+.contact a{
+  text-decoration: none;
+  color: rgb(48, 106, 230);
 }
 .facility-card-img {
   transition: transform 0.4s ease;
@@ -187,4 +199,12 @@
 }
 #mail{
   text-decoration: none;
+}
+/* Emergency */
+/* .emergency-section {
+  background: linear-gradient(to right, #dc3545, #a71d2a);
+}
+ */
+.card h4 {
+  color: #a71d2a;
 }

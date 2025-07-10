@@ -54,11 +54,11 @@ const ContactSection = () => {
             </div>
           </div>
            {/* Contact Info */}
-            <div className='contact-info mt-5'>
+            <div className='contact mt-5'>
               <p><FaHospital className='me-2'/> Medigreen Hospital</p>
               <p><IoLocationOutline className='me-2' />Manakkalappadi, Thekkumkara, Thrissur, Kerala 680682</p>
               <a href='tel:04802861727'><FaPhone className='me-2'/>0480 2861727</a><br />
-              <a href="tel:8593959881"><BiMobile className='me-2'/>8593959881, 9895161727</a><br />
+              <a href="tel:8593959881"><BiMobile className='me-2'/>8593959881</a><br />
               <a href='mailto:rrmedigreen@gmail.com'><IoMdMail className='me-2'/>rrmedigreen@gmail.com</a>
             </div>
         </div>

@@ -33,13 +33,8 @@ const doctors = [
     image: 'assets/avatar-male.png',
   },
   {
-    name: 'Dr. Arjun - MBBS',
-    title:'Physician',
-    image: 'assets/avatar-male.png',
-  },
-  {
     name: 'Dr. Edwin Joy - MD',
-    title:'General Medicine',
+    title:'Physician',
     image: 'assets/avatar-male.png',
   },
   {
@@ -63,7 +58,7 @@ const doctors = [
     image: 'assets/avatar-male.png',
   },
   {
-    name: 'Dr Ragendu - MBBS',
+    name: 'Dr Rakendu - MBBS',
     title:'RMO',
     image: 'assets/avatar-famale.jpg',
   },

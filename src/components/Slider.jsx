@@ -11,18 +11,8 @@ const Slider = () => {
   const slides = [
     {
       id: 1,
-      image: 'https://cardimed-asia.com/Bilder/hospital-care-hero-low.jpg',
+      image: 'assets/banner.jpg',
       
-    },
-    {
-      id: 2,
-      image: 'https://i.klerk.ru/Mm1g_1WXDW_aJP-ZA2RumuWm4k-u1fkupRxtPkk7b3M/w:2100/h:1179/aHR0cHM6Ly93d3cu/a2xlcmsucnUvdWdj/L2Jsb2dQb3N0LzZj/MzBlM2E4NDg4N2Ux/ODJmZTZkNjRiN2Y0/NTAwMDUxLmpwZw.webp',
-      
-    },
-    {
-      id: 3,
-      image: 'https://www.dutypoint.com/app/uploads/2020/03/Category-5-ScubaTANK-AB-Morriston-Hospital.webp',
-   
     },
   ];
 

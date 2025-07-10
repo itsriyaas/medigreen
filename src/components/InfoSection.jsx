@@ -49,7 +49,7 @@ const InfoSection = () => {
                 <FaRegClock size={48} className="text-success me-3" />
                 <div>
                   <h6><strong>24 Hours Services</strong></h6>
-                  <p className="text-muted mb-0">Facilities include Pharmacy, Lab, Digital X-ray, etc.</p>
+                  <p className="text-muted mb-0">Facilities include Pharmacy, Casualty, Ambulance Services etc.</p>
                 </div>
               </motion.div>
             </Col>
