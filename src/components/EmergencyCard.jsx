@@ -6,7 +6,7 @@ const cardData = [
     icon: <FaAmbulance size={40} className="text-danger mb-3" />,
     title: '24/7 Ambulance',
     description: 'Rapid emergency transport service anytime you need it.',
-    phone: '+91 8593959881',
+    phone: '+91 8301009724',
   },
   {
     icon: <FaProcedures size={40} className="text-primary mb-3" />,
@@ -18,7 +18,7 @@ const cardData = [
     icon: <FaPhoneAlt size={40} className="text-success mb-3" />,
     title: 'Reception',
     description: 'For general queries, assistance, and appointments.',
-    phone: '+91 8593959881',
+    phone: '0480 286 1727',
   },
 ];
 
