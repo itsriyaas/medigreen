@@ -12,7 +12,7 @@ const Footer = () => {
           <Col md={3}>
             <img src="assets/footer_logo.png" alt="Medigreen Logo" style={{ maxWidth: '120px' }} />
             <p className="mt-3 text-justify">
-             Medigreen Hospital is a modern, multi-specialty healthcare institution located in Irinjalakuda, Thrissur. Renowned for its commitment to excellence, Medigreen brings together a team of highly skilled medical professionals dedicated to compassionate and quality care. 
+             Medigreen Hospital is a modern, multi-specialty healthcare institution located in Manakkalappadi, Thekkumkara, Thrissur. Renowned for its commitment to excellence, Medigreen brings together a team of highly skilled medical professionals dedicated to compassionate and quality care. 
             </p>
           </Col>
 
