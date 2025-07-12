@@ -15,6 +15,7 @@ import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import WhatsAppButton from "./components/WhatsAppButton";
 import News from "./pages/News";
+import ScrollToTopButton from "./components/ScrollTop";
 function App() {
   
 useEffect(() => {
@@ -38,6 +39,7 @@ useEffect(() => {
             <Route path="*" element={<Error />} />
           </Routes>
           <WhatsAppButton/>
+          <ScrollToTopButton/>
         </main>
         <Footer />
       </div>
