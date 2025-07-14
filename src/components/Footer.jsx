@@ -12,7 +12,7 @@ const Footer = () => {
           <Col md={3}>
             <img src="assets/footer_logo.png" alt="Medigreen Logo" style={{ maxWidth: '120px' }} />
             <p className="mt-3 text-justify">
-             Medigreen Hospital is a modern, multi-specialty healthcare institution located in Manakkalappadi, Thekkumkara, Thrissur. Renowned for its commitment to excellence, Medigreen brings together a team of highly skilled medical professionals dedicated to compassionate and quality care. 
+             Medigreen Hospital is a modern, multi-specialty healthcare institution located in Manakkalappadi, Konathukunnu, Thrissur. Renowned for its commitment to excellence, Medigreen brings together a team of highly skilled medical professionals dedicated to compassionate and quality care. 
             </p>
           </Col>
 
@@ -51,7 +51,7 @@ const Footer = () => {
           <Col md={3}>
             <div className='contact-info'>
               <h5 className="fw-bold">Contact Us</h5>
-              <a href='https://maps.app.goo.gl/MWZ9bvpw8J43AsiR9' target='_blank'><p><FaMapMarkerAlt className="me-2" /> Medigreen Hospital,<br />Manakkalappadi, Thekkumkara <br />Thrissur, Kerala 680682</p></a>
+              <a href='https://maps.app.goo.gl/MWZ9bvpw8J43AsiR9' target='_blank'><p><FaMapMarkerAlt className="me-2" /> Medigreen Hospital,<br />Manakkalappadi, Konathukunnu <br />Thrissur, Kerala 680682</p></a>
               <a href='tel:04802861727'><FaPhoneAlt className="me-2" /> <strong>0480 286 1727</strong></a><br />
               <a href='mailto:rrmedigreen@gmail.com'><FaEnvelope className="me-2" />rrmedigreen@gmail.com</a>
               <p><FaClock className="me-2" /> Mon - Sun 24 hours</p>
