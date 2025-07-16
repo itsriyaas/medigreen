@@ -104,17 +104,37 @@ const InfoSection = () => {
           </Row>
         </Col>
       </Row>
-      <Row className="mb-5">
-        <h2>MD's Message</h2>
-        <Col className="text-end mb-4">
-          <img src="assets/md_photo.jpg" alt="Md's Photo" width={300} className="img-fluid rounded"/>
-        </Col>
-        <p className='text-muted'>Hearty welcome to our web to know about our services and functions. All set to become a landmark in the field of medical care, Medigreen Hospital  has gone leaps and bounds to deliver its mission of bringing quality healthcare services for all. We are aligned with our guiding principle “Caring for what matters most”, which is the virtue by which every individual at Medigreen Hospital works. The team of our expert medical professionals will constantly endeavour to provide accessible, affordable and best available healthcare services in Thrissur Dist. Since its commencement, this hospital has continuously evolved in the field of medical science.</p>
-        <p className='text-muted'>Great ideologies have greater responsibilities and the goals in healthcare are to safeguard, encourage and at times cultivate the social fabric of the society as a whole. We at Medigreen Hospital are earnestly and continuously striving our best to scale newer heights in the pursuit of excellence. Our hospital has become a name that spells assurance for the well-being of the patients. We are committed to make available to the public the benefits of the most modern and technological developments in the field of medical sciences which are a blend of technology along with impeccable patient care. The hospital has attained the highest standards of healthcare along with administrative efficiency, which has led to its accreditation from ISO Certification, which is on pipeline. Also we have the arrangements that if required concerned doctors visit the houses to check on bed-ridden patients.</p>
-        <p className='text-muted'>Through our essence of high teamwork, we bring together all necessary disciplines and skills from many resources of our organization to serve our patients better and attempt to set a league of its own. We assure that we shall strive to carry out all the good proposals from your part, of course, subject to our means and to continue our earnest efforts steadfastly to provide more and more services to the patients and the public where every moment is as new as it is special. Life is about living every second to the fullest and about making every day an experience to enjoy and cherish. We at Medigreen Hospital cherish every moment spent in making your life healthier. </p>
-      <p className='text-muted'>Thank you for allowing us to be a part of your healthcare journey.</p>
-      <p>Ragesh Manu S.R.  Managing Director - Medigreen Hospital </p>
-      </Row>
+     <Row className="mb-5 align-items-center">
+  <Col md={8}>
+    <h2>MD's Message</h2>
+    <p className="text-muted">
+      Hearty welcome to our web to know about our services and functions. All set to become a landmark in the field of medical care, Medigreen Hospital has gone leaps and bounds to deliver its mission of bringing quality healthcare services for all. We are aligned with our guiding principle “Caring for what matters most”, which is the virtue by which every individual at Medigreen Hospital works. The team of our expert medical professionals will constantly endeavour to provide accessible, affordable and best available healthcare services in Thrissur Dist. Since its commencement, this hospital has continuously evolved in the field of medical science.
+    </p>
+    <p className="text-muted">
+      Great ideologies have greater responsibilities and the goals in healthcare are to safeguard, encourage and at times cultivate the social fabric of the society as a whole. We at Medigreen Hospital are earnestly and continuously striving our best to scale newer heights in the pursuit of excellence. Our hospital has become a name that spells assurance for the well-being of the patients. We are committed to make available to the public the benefits of the most modern and technological developments in the field of medical sciences which are a blend of technology along with impeccable patient care. The hospital has attained the highest standards of healthcare along with administrative efficiency, which has led to its accreditation from ISO Certification, which is on pipeline. Also we have the arrangements that if required concerned doctors visit the houses to check on bed-ridden patients.
+    </p>
+    <p className="text-muted">
+      Through our essence of high teamwork, we bring together all necessary disciplines and skills from many resources of our organization to serve our patients better and attempt to set a league of its own. We assure that we shall strive to carry out all the good proposals from your part, of course, subject to our means and to continue our earnest efforts steadfastly to provide more and more services to the patients and the public where every moment is as new as it is special. Life is about living every second to the fullest and about making every day an experience to enjoy and cherish. We at Medigreen Hospital cherish every moment spent in making your life healthier.
+    </p>
+    <p className="text-muted">
+      Thank you for allowing us to be a part of your healthcare journey.
+    </p>
+    <p>
+      <strong>Ragesh Manu S.R.</strong><br />
+      Managing Director - Medigreen Hospital
+    </p>
+  </Col>
+
+  <Col md={4} className="mb-4">
+    <img
+      src="assets/md_photo.jpg"
+      alt="MD's Photo"
+      width={300}
+      className="img-fluid rounded"
+    />
+  </Col>
+</Row>
+
     </Container>
   );
 };
