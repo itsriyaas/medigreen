@@ -56,7 +56,7 @@ const CareersSection = () => {
               <h4 className="mb-3 fw-bold">Join Our Team</h4>
               <p className='text-muted'>With our state-of-the-art facilities, we are all set to change the face of healthcare in konathukunnu. Medigreen Hospital offers a high order of integrated quality healthcare with the latest generation diagnostic facilities under one roof. We promise to deliver quality medical service affordable for one and all. If you are confident in your skill set and would like to join a compassionate team of health care experts, please feel free to get in touch with us.</p>
             </div>
-            <div><p className='ms-2'>Interested candidates may mail us your resume to <a href='mailto:info@medigreenhospital.com' id='mail'>info@medigreenhospital.com</a></p></div>
+            <div><p className='ms-2'>Interested candidates may drop us your resume to <a href='mailto:info@medigreenhospital.com' id='mail'>info@medigreenhospital.com</a></p></div>
           {/* <Row className="g-4">
           
             <Col md={6}>
