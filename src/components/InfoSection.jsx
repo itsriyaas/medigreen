@@ -127,7 +127,7 @@ const InfoSection = () => {
 
   <Col md={4} className="mb-4">
     <img
-      src="assets/md_photo.jpg"
+      src="assets/md.jpg"
       alt="MD's Photo"
       width={300}
       className="img-fluid rounded"
