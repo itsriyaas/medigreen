@@ -67,6 +67,11 @@ const doctors = [
     title:'RMO',
     image: 'assets/avatar-male.png',
   },
+  {
+    name: 'Dr. Saifuddin - MBBS',
+    title:'DLO ENT',
+    image: 'assets/avatar-male.png',
+  },
   
 ];
 

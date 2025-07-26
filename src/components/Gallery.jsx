@@ -23,16 +23,17 @@ const GallerySlider = () => {
 
   return (
     <div className="container py-5" id="gallery">
+      {/* Title */}
       <div className="text-center mb-4" data-aos="fade-up">
         <p className="text-success fw-semibold">Gallery</p>
         <h2 className="fw-bold display-5">Our Facilities & Events</h2>
       </div>
 
+      {/* Swiper Slider */}
       <Swiper
         modules={[Navigation]}
         spaceBetween={20}
         slidesPerView={1}
-       
         breakpoints={{
           768: { slidesPerView: 2 },
           992: { slidesPerView: 3 },
@@ -53,6 +54,19 @@ const GallerySlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+{/* Video Section */}
+<div className="mt-5" data-aos="fade-up">
+  <div className="d-flex justify-content-center">
+    <div className="ratio ratio-16x9" style={{ width: "720px", maxWidth: "100%" }}>
+      <video
+        src="assets/medigreen_video.mp4"
+        title="Gallery Highlight Video"
+        controls
+        className="rounded"
+      />
+    </div>
+  </div>
+</div>
     </div>
   );
 };
