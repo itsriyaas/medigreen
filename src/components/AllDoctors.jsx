@@ -64,8 +64,8 @@ const doctors = [
     image: 'assets/avatar-male.png',
   },
   {
-    name: 'Dr. Saifuddin - MBBS',
-    title:'DLO ENT',
+    name: 'Dr. Saifuddin - MBBS, DLO',
+    title:'ENT',
     image: 'assets/avatar-male.png',
   },
   
