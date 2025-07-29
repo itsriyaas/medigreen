@@ -18,8 +18,8 @@ const Slider = () => {
   const slides = [
     {
       id: 1,
-      image: 'assets/banner.jpg',
-      mobileImage: '/assets/mobile-banner.jpg', // rename the uploaded file to this
+      image: 'assets/slider.jpg',
+      mobileImage: 'assets/mobile-slider.jpg', // rename the uploaded file to this
       caption: ''
     }
   ];
