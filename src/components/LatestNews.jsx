@@ -27,7 +27,29 @@ const LatestNewsSection = () => {
     <Container className="py-5">
       <p className="text-success fw-semibold text-center">News</p>
         <h2 className="fw-bold display-5 text-center">Latest News</h2>
-      <p className="text-center text-muted mb-5">Stay informed with the latest health updates, events, and services at Medigreen Hospital</p>
+               {/* Video Section */}
+<div className="mt-5" data-aos="fade-up">
+  <div className="d-flex justify-content-center">
+    <figure className="text-center">
+      <div
+        className="ratio"
+        style={{ width: "360px", maxWidth: "100%", aspectRatio: "9 / 16" }}
+      >
+        <video
+          src="assets/videos/independance_day.mp4"
+          title="Independence Day Reel"
+          controls
+          className="rounded w-100 h-100 object-fit-cover"
+        />
+      </div>
+      <figcaption className="mt-2 text-muted">
+       On the occasion of 79th Independence Day, Medigreen Hospital Managing Director Mr. Ragesh Manu raising the flag hoisting ceremony in front of Hospital Building.
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+
       {/* <Row className="g-4">
         {news.map((item, index) => (
           <Col key={index} md={4} data-aos="fade-up">

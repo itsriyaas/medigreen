@@ -14,7 +14,7 @@ const departments = [
     title: 'Paediatrics',
     description: 'The Department of Paediatrics provides comprehensive medical care for infants, children, and adolescents. Our team of experienced paediatricians is dedicated to monitoring your child’s growth, development, and overall health',
     fullDescription:'',
-    image: 'https://www.huggies.ru/-/media/F3465A5F9CA849B6A8C8DF847283FE29.ashx',
+    image: '/assets/services/paediatrics.jpg',
     icon: 'assets/icons/paediatrics.png'
   },
   {
@@ -22,7 +22,7 @@ const departments = [
     title: 'Physiotherapy',
     description: 'The Physiotherapy Department focuses on restoring, maintaining, and enhancing physical strength, function, and mobility. Our skilled physiotherapists provide personalized care for patients recovering from injuries, surgeries, strokes, or chronic pain conditions.',
     fullDescription:'',
-    image: 'https://centromedicoabc.com/storage/2022/12/fisioterapeuta.jpg',
+    image: '/assets/services/physiotherapy.jpg',
     icon: 'assets/icons/physical-therapy.png'
   },
   {
@@ -30,7 +30,7 @@ const departments = [
     title: 'General Medicine',
     description: 'Our General Medicine department serves as the first point of contact for patients seeking diagnosis, treatment, and ongoing care for a wide range of medical conditions. Staffed by experienced physicians and supported by advanced diagnostic tools.',
     fullDescription:'',
-    image: 'https://relaxmedi.ru/upload/medialibrary/a49/99e576sig2mo5xqjfdm2tt4w7c2muybe.jpg',
+    image: '/assets/services/general_medicine.jpg',
     icon: 'assets/icons/health.png'
   },
   {
@@ -38,7 +38,7 @@ const departments = [
     title: 'Diabetology ',
     description: 'The Diabetology Department is dedicated to the comprehensive diagnosis, treatment, and long-term management of all types of diabetes and its related complications. We combine clinical expertise with lifestyle guidance to help patients lead healthier lives despite their diagnosis.',
     fullDescription:'',
-    image: 'https://www.who.int/images/default-source/searo---images/health-topic-images/diabetes/diabetesbanner.tmb-1920v.jpg?Culture=en&sfvrsn=10b34adb_1',
+    image: '/assets/services/diabetology.webp',
     icon: 'assets/icons/diabetes.png'
   },
    {
@@ -46,7 +46,7 @@ const departments = [
     title: 'ENT',
     description: 'Our ENT Department (Otorhinolaryngology) offers comprehensive care for conditions related to the ear, nose, throat, head, and neck. Whether its a simple infection or a complex surgical issue, our specialists provide accurate diagnosis, advanced treatment, and personalized care.',
     fullDescription:'',
-    image: 'https://www.hno-emsdetten.de/wp-content/uploads/sites/166/Chronische-Entzuendungen.jpeg',
+    image: '/assets/services/ent.jpeg',
     icon: 'assets/icons/ent.png'
   },
   {
@@ -54,7 +54,7 @@ const departments = [
     title: 'Orthopaedic',
     description: 'The Orthopaedics Department provides expert care for a wide range of bone, joint, and muscle conditions. From fractures and arthritis to sports injuries and joint replacements, our team of experienced orthopaedic surgeons ensures each patient receives accurate diagnosis and personalized treatment.',
     fullDescription:'',
-    image: 'https://assets-ratgeber.docfinder.at/uploads/Die-beliebtesten-Orthopa%CC%88den.jpg',
+    image: '/assets/services/orthopaedic.webp',
     icon: 'assets/icons/orthopaedics.png'
   },
    {
@@ -62,7 +62,7 @@ const departments = [
     title: 'Surgery',
     description: 'The Surgery Department at Medigreen Hospital is committed to delivering safe, effective, and patient-centered surgical care using the latest techniques and technologies.',
     fullDescription:'The Surgery Department at Medigreen Hospital is committed to delivering safe, effective, and patient-centered surgical care using the latest techniques and technologies. Our team of highly skilled surgeons and anesthetists specializes in a wide range of surgical procedures—both elective and emergency—across multiple specialties.',
-    image: 'https://www.soupstock.in/system/files/images/dd/f5/shutterstock_1131832418.jpg',
+    image: '/assets/services/surgery.jpg',
     icon: 'assets/icons/surgery.png'
   },
    {
@@ -70,7 +70,7 @@ const departments = [
     title: 'Pulmonology',
     description: 'The Pulmonology Department specializes in the diagnosis, treatment, and management of conditions related to the respiratory system.',
     fullDescription:'The Pulmonology Department specializes in the diagnosis, treatment, and management of conditions related to the respiratory system. Our expert pulmonologists provide comprehensive care for a wide range of lung and breathing disorders, including asthma, chronic obstructive pulmonary disease (COPD), pneumonia, tuberculosis, bronchitis, and sleep-related breathing issues.',
-    image: 'https://ijcscardiol.org/wp-content/uploads/2023/08/shutterstock_2203003905.jpg',
+    image: '/assets/services/pulmonology.jpg',
     icon: 'assets/icons/pulmonology.png'
   },
   {
@@ -78,7 +78,7 @@ const departments = [
     title: 'Psychiatry',
     description: 'The Psychiatry Department is dedicated to promoting mental and emotional well-being through expert diagnosis, compassionate care, and individualized treatment.',
     fullDescription:'The Psychiatry Department is dedicated to promoting mental and emotional well-being through expert diagnosis, compassionate care, and individualized treatment. Our team of experienced psychiatrists addresses a wide range of mental health conditions including depression, anxiety, bipolar disorder, schizophrenia, stress-related disorders, and more.',
-    image: 'https://www.chester.ac.uk/media/media/photography/photography/stock/AdobeStock_314466165.jpg',
+    image: '/assets/services/psychiatry.jpg',
     icon: 'assets/icons/psychiatry.png'
   },
     {
@@ -86,7 +86,7 @@ const departments = [
     title: 'Psychology',
     description: 'The Psychology Department is committed to enhancing emotional and psychological well-being through expert care, empathy, and scientifically grounded methods.',
     fullDescription:'The Psychology Department is committed to enhancing emotional and psychological well-being through expert care, empathy, and scientifically grounded methods. Our trained psychologists provide counseling and therapy for individuals facing stress, anxiety, depression, trauma, behavioral issues, and life transitions.',
-    image: 'https://i.vuzopedia.ru/storage/app/uploads/public/5a9/028/ca7/5a9028ca7fa15970420108.jpg',
+    image: '/assets/services/psychology.jpg',
     icon: 'assets/icons/brain.png'
   },
   // Add more departments as needed
