@@ -54,11 +54,13 @@ const LatestNewsSection = () => {
             {/* Image Section */}
             <div className="col-12 col-md-6 d-flex justify-content-center">
               <figure className="text-center w-100">
-                <img
-                  src="/assets/latest_news.png"
-                  alt="Latest News"
-                  className="img-fluid rounded"
-                />
+                <a href='/assets/pdf/Ultrasound Scanning.pptx' download={true}>
+                  <img
+                    src="/assets/latest_news.png"
+                    alt="Latest News"
+                    className="img-fluid rounded"
+                  />
+                </a>
                 <figcaption className="mt-2 text-muted px-2">
                   We are happy to announce that our hospital now offers full-fledged Ultrasound Scanning services with the addition of Dr. John Paul, our expert radiologist on board.
                   We are proud to welcome Dr. John Paul to our team, Empower your health journey with advanced ultrasound diagnostics.Your well-being matters!
