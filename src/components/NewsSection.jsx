@@ -33,46 +33,68 @@ const NewsSection = () => {
           </div>
         </div>
         <section className="py-5 bg-light">
-          <Container>
-            {/* Video Section */}
-<div className="mt-5" data-aos="fade-up">
-  <div className="d-flex justify-content-center">
-    <figure className="text-center">
-      <div
-        className="ratio"
-        style={{ width: "360px", maxWidth: "100%", aspectRatio: "9 / 16" }}
-      >
-        <video
-          src="assets/videos/independance_day.mp4"
-          title="Independence Day Reel"
-          controls
-          className="rounded w-100 h-100 object-fit-cover"
-        />
-      </div>
-      <figcaption className="mt-2 text-muted">
-       On the occasion of 79th Independence Day, Medigreen Hospital Managing Director Mr. Ragesh Manu raising the flag hoisting ceremony in front of Hospital Building.
-      </figcaption>
-    </figure>
-  </div>
-</div>
-            {/* <Row className="g-4">
-              {newsItems.map((item, index) => (
-                <Col key={index} xs={12} md={4} data-aos="fade-up" data-aos-delay={index * 100}>
-                  <Card className="h-100 shadow-sm border-0">
-                    <Card.Img variant="top" src={item.image} style={{ height: '200px', objectFit: 'cover' }} />
-                    <Card.Body>
-                      <Card.Subtitle className="mb-2 text-muted small">{item.date}</Card.Subtitle>
-                      <Card.Title>{item.title}</Card.Title>
-                      <Card.Text>{item.description}</Card.Text>
-                    </Card.Body>
-                    <Card.Footer className="bg-white border-0 text-end">
-                      <Button variant="outline-success" size="sm">Read More</Button>
-                    </Card.Footer>
-                  </Card>
-                </Col>
-              ))}
-            </Row> */}
-          </Container>
+          <Container className="py-5">
+                <p className="text-success fw-semibold text-center">News</p>
+                <h2 className="fw-bold display-5 text-center">Latest News</h2>
+                {/* Video Section */}
+                <div className="mt-5" data-aos="fade-up">
+                  <div className="container">
+                    <div className="row justify-content-center g-4">
+          
+                      {/* Video Section */}
+                      <div className="col-12 col-md-6 d-flex justify-content-center">
+                        <figure className="text-center w-100">
+                          <div className="ratio ratio-16x9" style={{ width: "720px", maxWidth: "100%" }}>
+                            <video
+                              src="/assets/videos/independance_day.mp4"
+                              title="Gallery Highlight Video"
+                              controls
+                              className="rounded"
+                            />
+                          </div>
+                          <figcaption className="mt-2 text-muted px-2">
+                            On the occasion of 79th Independence Day, Medigreen Hospital
+                            Managing Director Mr. Ragesh Manu raising the flag hoisting ceremony
+                            in front of Hospital Building.
+                          </figcaption>
+                        </figure>
+                      </div>
+          
+                      {/* Image Section */}
+                      <div className="col-12 col-md-6 d-flex justify-content-center">
+                        <figure className="text-center w-100">
+                          <img
+                            src="/assets/latest_news.png"
+                            alt="Latest News"
+                            className="img-fluid rounded"
+                          />
+                          <figcaption className="mt-2 text-muted px-2">
+                            We are happy to announce that our hospital now offers full-fledged Ultrasound Scanning services with the addition of Dr. John Paul, our expert radiologist on board.
+                            We are proud to welcome Dr. John Paul to our team, Empower your health journey with advanced ultrasound diagnostics.Your well-being matters!
+                          </figcaption>
+                        </figure>
+                      </div>
+          
+                    </div>
+                  </div>
+                </div>
+          
+          
+                {/* <Row className="g-4">
+                  {news.map((item, index) => (
+                    <Col key={index} md={4} data-aos="fade-up">
+                      <Card className="h-100 shadow border-0">
+                        <Card.Img variant="top" src={item.image} />
+                        <Card.Body>
+                          <Card.Subtitle className="mb-2 text-muted">{item.date}</Card.Subtitle>
+                          <Card.Title>{item.title}</Card.Title>
+                          <Card.Text>{item.description}</Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </Col>
+                  ))}
+                </Row> */}
+              </Container>
         </section>
     </>
   );

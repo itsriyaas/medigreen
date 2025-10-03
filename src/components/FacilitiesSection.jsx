@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const facilities = [
     {
-        title: '24 hours Causalty',
+        title: '24 hours Casualty',
         image: 'assets/facilities/emergency.jpg',
     },
     {
