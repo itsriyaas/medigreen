@@ -49,7 +49,7 @@ const NewsSection = () => {
                               src="/assets/videos/independance_day.mp4"
                               title="Gallery Highlight Video"
                               controls
-                              className="rounded"
+                              className="rounded" poster='/assets/independance_day.jpg'
                             />
                           </div>
                           <figcaption className="mt-2 text-muted px-2">
